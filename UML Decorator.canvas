@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"ebb8c973ac7fe845","type":"text","text":"## IShape\n\nDraw ( )","x":-400,"y":40,"width":200,"height":160},
+		{"id":"d3dabcd40689074e","x":-980,"y":365,"width":260,"height":215,"type":"text","text":"## ShapeD\n\n_decoratedShape: IShape\n\nShapeD( )\nDraw()"},
+		{"id":"5b52d143a43bb4e9","x":-200,"y":305,"width":300,"height":240,"type":"text","text":"## SimpleShape\n\n_name: string\n\nSimpleShape( )\nDraw( )\n"},
+		{"id":"f5d62119b1c038d5","x":-650,"y":370,"width":290,"height":210,"type":"text","text":"## GroupShape\n\n _shapes : List<IShape>\n\n\n AddShape( )\n Draw()"},
+		{"id":"6731c0503bb7e6d2","type":"text","text":"## RedShapeD\n\n RedShapeD( )\nDraw()\n SetRedBorder()","x":-172,"y":680,"width":245,"height":180}
+	],
+	"edges":[
+		{"id":"284ee13dd8688bc9","fromNode":"5b52d143a43bb4e9","fromSide":"top","toNode":"ebb8c973ac7fe845","toSide":"bottom"},
+		{"id":"b1931803528a9daa","fromNode":"f5d62119b1c038d5","fromSide":"top","toNode":"ebb8c973ac7fe845","toSide":"bottom"},
+		{"id":"a3c42630ebcd8439","fromNode":"d3dabcd40689074e","fromSide":"top","toNode":"ebb8c973ac7fe845","toSide":"bottom"},
+		{"id":"3aecc5880c14e4bc","fromNode":"6731c0503bb7e6d2","fromSide":"top","toNode":"5b52d143a43bb4e9","toSide":"bottom"}
+	]
+}

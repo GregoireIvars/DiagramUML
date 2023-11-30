@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"628022afae3c166f","type":"text","text":"## Program","x":-340,"y":180,"width":250,"height":160},
+		{"id":"ccc6435ad532b260","type":"text","text":"Hérite de lui même","x":875,"y":230,"width":250,"height":60,"color":"3"},
+		{"id":"47b2d8e37b13749c","type":"text","text":"## PoorlyDesignedCode\n\nProcessData( )","x":580,"y":180,"width":260,"height":160},
+		{"id":"e58425055b0369aa","type":"text","text":"## IntDataHandler\n\n\nIDataHandler: nextHandler\n\nSetNextHandler( )\nHandleData ( )","x":660,"y":720,"width":340,"height":220},
+		{"id":"8362f2c2aa3b137d","x":530,"y":400,"width":260,"height":170,"type":"text","text":"## IDataHandler\n\nSetNextHandler( )\nHandleData( )"},
+		{"id":"0ffcb950bcff558b","type":"text","text":"## StringDataHandler\n\n\nIDataHandler: nextHandler\n\nSetNextHandler( )\nHandleData ( )","x":180,"y":720,"width":300,"height":220},
+		{"id":"47f850a6e03e658f","x":1180,"y":720,"width":320,"height":220,"type":"text","text":"## DoubleDataHandler\nIDataHandler: nextHandler\n\nSetNextHandler( )\nHandleData ( )"}
+	],
+	"edges":[
+		{"id":"8c0b9472c93c189a","fromNode":"628022afae3c166f","fromSide":"right","toNode":"47b2d8e37b13749c","toSide":"left","label":"Send Command"},
+		{"id":"f3085907427431ef","fromNode":"47b2d8e37b13749c","fromSide":"bottom","toNode":"ccc6435ad532b260","toSide":"bottom"},
+		{"id":"966cb34c836af09c","fromNode":"ccc6435ad532b260","fromSide":"top","toNode":"47b2d8e37b13749c","toSide":"top"},
+		{"id":"38d0a6587359ffbf","fromNode":"8362f2c2aa3b137d","fromSide":"top","toNode":"47b2d8e37b13749c","toSide":"bottom"},
+		{"id":"b26d9bd7597f0eef","fromNode":"e58425055b0369aa","fromSide":"top","toNode":"8362f2c2aa3b137d","toSide":"bottom"},
+		{"id":"f804476449820dd6","fromNode":"0ffcb950bcff558b","fromSide":"top","toNode":"8362f2c2aa3b137d","toSide":"bottom"},
+		{"id":"dd60c020c2931593","fromNode":"47f850a6e03e658f","fromSide":"top","toNode":"8362f2c2aa3b137d","toSide":"bottom"}
+	]
+}

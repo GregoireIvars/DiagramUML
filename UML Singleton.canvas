@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"83d5b8f9ae3c9ef7","type":"text","text":"Hérite de lui même ","x":500,"y":-450,"width":210,"height":100,"color":"3"},
+		{"id":"c3a00eeb775ab39b","type":"text","text":"## Program\n----\ninstance: Singleton.getInstance( )","x":-420,"y":-430,"width":320,"height":330},
+		{"id":"7b6dd42ca32d280d","type":"text","text":"##  PoorlyDesignedClass\n\n- InstanceCount\n\n-------\nPoorlyDesignedClass ( )\ngetInstance ( ): singleton","x":80,"y":-445,"width":300,"height":360}
+	],
+	"edges":[
+		{"id":"f61bbff0b8de4ef4","fromNode":"83d5b8f9ae3c9ef7","fromSide":"top","toNode":"7b6dd42ca32d280d","toSide":"top"},
+		{"id":"fa8edc8da1cd99a8","fromNode":"7b6dd42ca32d280d","fromSide":"bottom","toNode":"83d5b8f9ae3c9ef7","toSide":"bottom"},
+		{"id":"6c816b0046e76474","fromNode":"c3a00eeb775ab39b","fromSide":"right","toNode":"7b6dd42ca32d280d","toSide":"left","label":"Uses"}
+	]
+}

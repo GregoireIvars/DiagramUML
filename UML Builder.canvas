@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"4eda0f860493534d","type":"text","text":"\n## CarManufacturer\n\n---------\n\nCarBuilder: builder\n\n------------\n\nCarManufacturer (CarBuilder: builder  )\nConstructCar ( )","x":-180,"y":-420,"width":280,"height":520},
+		{"id":"d5d4eb033b3fb779","type":"text","text":"## SedanCarBuilder\n\nSetModel ( )\nSetColor ( )\nSetEngineSize ( )\nSetSunroof ( )\n","x":320,"y":-325,"width":300,"height":330},
+		{"id":"6696dbcaed2ae4d1","type":"text","text":"## Car\n\nDisplay ()","x":760,"y":-190,"width":280,"height":195},
+		{"id":"3ecd97ca2fdb7ebd","type":"text","text":"Product","x":760,"y":100,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"cd646398d8482cff","fromNode":"d5d4eb033b3fb779","fromSide":"left","toNode":"4eda0f860493534d","toSide":"right"},
+		{"id":"5cff63c3fdca9f4d","fromNode":"6696dbcaed2ae4d1","fromSide":"left","toNode":"d5d4eb033b3fb779","toSide":"right"},
+		{"id":"cc3fb2d635378e78","fromNode":"6696dbcaed2ae4d1","fromSide":"bottom","toNode":"3ecd97ca2fdb7ebd","toSide":"top","color":"1"}
+	]
+}
